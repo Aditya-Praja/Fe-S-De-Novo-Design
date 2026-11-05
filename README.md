@@ -29,6 +29,7 @@ These clusters can support electron transfer through reversible changes in their
 
 ![Extracted Fe–S coordination motif](docs/figures/motif_visualization.png)
 
+![alt text](docs/figures/Fe2S2.png)
 ## Computational Design Pipeline
 
 The pipeline combines structural motif extraction, backbone generation, sequence design, and computational validation.
