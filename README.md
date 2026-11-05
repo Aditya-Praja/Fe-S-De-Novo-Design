@@ -87,16 +87,16 @@ Predicted structural compatibility does not establish actual Fe–S binding or e
 ## Project Organization
 
 ```text
-configs/       Model parameters and experiment configurations
-data/          Reference structures and processed Fe–S motifs
-src/           Preprocessing, generation, prediction, and scoring
-scripts/       Command-line pipeline utilities
-notebooks/     Exploratory analysis and visualization
-experiments/   Experiment configurations and results
-outputs/       Generated structures, sequences, and predictions
-cluster/       GPU cluster configurations and Slurm scripts
-docs/          Documentation and figures
-tests/         Validation and unit tests
+configs/ 
+data/     
+src/     
+scripts/ 
+notebooks/ 
+experiments/  
+outputs/     
+cluster/      
+docs/         
+tests/         
 ```
 
 ## Computational Tools
