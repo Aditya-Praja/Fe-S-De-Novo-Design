@@ -106,5 +106,9 @@ tests/
 | PyTorch | Deep learning inference |
 | PyMOL | Molecular visualization |
 
+## Personal Notes
+
+
+
 ## References:
 Approximate Structural Values for 2Fe-2S: [The competition between chemistry and biology in assembling iron–sulfur derivatives](https://www.sciencedirect.com/science/article/abs/pii/S0010854514002082)
