@@ -27,7 +27,7 @@ These clusters can support electron transfer through reversible changes in their
 
 ### Extracted Fe–S Coordination Motif
 
-![Extracted Fe–S coordination motif](docs/figures/fes_motif.png)
+![Extracted Fe–S coordination motif](docs/figures/motif_visualization.png)
 
 ## Computational Design Pipeline
 
