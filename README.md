@@ -14,11 +14,6 @@ This work serves as an initial foundation for investigating more unconventional 
 
 Iron–sulfur clusters consist of iron atoms coordinated with inorganic sulfide ions and surrounding amino acid residues, commonly cysteine.
 
-Two common cluster types include:
-
-- **[2Fe–2S]:** Two iron atoms and two inorganic sulfide ions.
-- **[4Fe–4S]:** Four iron atoms and four inorganic sulfide ions arranged approximately in a cubane-like geometry.
-
 These clusters can support electron transfer through reversible changes in their oxidation states. Their function depends on both the cluster's chemical properties and the surrounding protein environment.
 
 ### Reference Protein Structure
