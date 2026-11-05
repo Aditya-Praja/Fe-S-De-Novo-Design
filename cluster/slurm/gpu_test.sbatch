@@ -1,3 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=fes-gpu-test
+#SBATCH --partition=mig
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+
 set -e
 
 module purge
