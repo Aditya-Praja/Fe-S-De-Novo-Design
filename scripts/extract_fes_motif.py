@@ -60,19 +60,29 @@ def find_coordinating_cys(structure, fe_atoms, cutoff=2.8):
 class MotifSelect(Select):
 
     def __init__(self, selected_residues):
-        self.selected_ids = {id(r) for r in selected_residues}
+        self.selected_ids = {
+            (
+                residue.get_parent().id,
+                residue.id
+            )
+            for residue in selected_residues
+        }
 
     def accept_model(self, model):
         return model.id == 0
 
     def accept_residue(self, residue):
-        return id(residue) in self.selected_ids
+        key = (
+            residue.get_parent().id,
+            residue.id
+        )
+        return key in self.selected_ids
 
 
 def save_selected_pdb(structure, residues, output_path):
     io = PDBIO()
     io.set_structure(structure)
-    io.save(str(output_path), select=gMotifSelect(residues))
+    io.save(str(output_path), select=MotifSelect(residues))
 
 
 def residue_label(residue):
